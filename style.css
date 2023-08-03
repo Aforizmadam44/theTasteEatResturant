@@ -6,7 +6,9 @@
   font-family: "Cormorant Infant", serif;
   box-sizing: border-box;
 }
-
+body {
+  background: linear-gradient(to bottom, #292e36, #e1b168);
+}
 :root {
   --BackroundColor: #292e36;
 }
@@ -14,25 +16,23 @@
   --GoldenColor: #e1b168;
 }
 .navbarTop {
-  background-color: var(--BackroundColor);
-  padding: 30px 20px;
-}
-.navbarTop {
   display: flex;
   justify-content: space-between;
+  background-color: var(--BackroundColor);
+  padding: 10px 40px;
   align-items: center;
   border-bottom: 1px solid rgb(83, 82, 82);
 }
 .contactTel a {
   color: white;
   border: 1px solid var(--GoldenColor);
-  padding: 20px 30px;
+  padding: 10px 30px;
   font-size: 20px;
 }
 .reservation button {
   background-color: var(--GoldenColor);
   color: black;
-  padding: 20px 30px;
+  padding: 10px 30px;
   font-size: 20px;
   border: 1px solid transparent;
   cursor: pointer;
@@ -46,8 +46,8 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--BackroundColor);
-  padding: 25px 20px;
-  border-bottom: 1px dashed rgb(83, 82, 82);
+  padding: 25px 40px;
+  border-bottom: 2px dashed rgb(83, 82, 82);
   font-size: 20px;
 }
 .navbarCenter .navbarItems {
@@ -68,6 +68,7 @@
 .navbarIcons a {
   color: #fff;
   font-size: 20px;
+  transition: 0.5s;
 }
 .navbarIcons a:hover {
   transform: scale(1.1);
@@ -78,17 +79,19 @@
   display: flex;
 }
 .navbarBottom .navbarBottomLeft {
-  margin: 150px 20px;
+  margin: 20px 40px;
 }
 .navbarBottomLeft h1 {
-  font-size: 100px;
+  font-size: 60px;
   width: 10ch;
+  display: flex;
+  text-align: left;
   color: #fff;
   font-family: "Cormorant Infant", serif;
 }
 .navbarBottomLeft p {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-align: justify;
   margin: 40px 0;
 }
@@ -96,7 +99,7 @@
   border: 1px solid var(--GoldenColor);
   color: var(--GoldenColor);
   background-color: var(--BackroundColor);
-  padding: 20px 30px;
+  padding: 10px 30px;
   font-size: 20px;
   cursor: pointer;
   transition: 0.5s;
@@ -107,11 +110,14 @@
   border: 1px solid #fff;
   color: black;
 }
-
+.navbarBottomRight img {
+  width: 520px;
+  height: 450px;
+}
 .navigationBar {
   display: flex;
   justify-content: space-between;
-  margin: 80px 20px;
+  margin: 80px 40px;
 }
 .locate,
 .openhours,
@@ -124,4 +130,60 @@
 .openhours h2,
 .reservation h2 {
   margin-bottom: 10px;
+}
+.ourstory {
+  display: flex;
+  margin: 60px 40px;
+  gap: 40px;
+}
+.ourstoryText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 2px dashed #b2b2b4;
+  position: relative;
+}
+#myVideo {
+  width: 700px;
+  max-width: 800px;
+  height: auto;
+}
+.ourstoryText h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.texth2 {
+  animation: text-focus-in 5s infinite;
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+. .ourstoryText p {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.ourstoryTextcenter {
+  display: flex;
+  gap: 50px;
+}
+.ourstorySign {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  bottom: 5px;
+}
+.ourstorySign img {
+  width: 100px;
+  height: 50px;
 }
