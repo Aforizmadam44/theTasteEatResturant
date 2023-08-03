@@ -107,3 +107,21 @@
   border: 1px solid #fff;
   color: black;
 }
+
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 20px;
+}
+.locate,
+.openhours,
+.reservation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.locate h2,
+.openhours h2,
+.reservation h2 {
+  margin-bottom: 10px;
+}
