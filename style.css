@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant", serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --BackroundColor: #292e36;
+}
+:root {
+  --GoldenColor: #e1b168;
+}
+.navbarTop {
+  background-color: var(--BackroundColor);
+  padding: 30px 20px;
+}
+.navbarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(83, 82, 82);
+}
+.contactTel a {
+  color: white;
+  border: 1px solid var(--GoldenColor);
+  padding: 20px 30px;
+  font-size: 20px;
+}
+.reservation button {
+  background-color: var(--GoldenColor);
+  color: black;
+  padding: 20px 30px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.reservation button:hover {
+  background-color: var(--BackroundColor);
+  border: 1px solid var(--GoldenColor);
+  color: white;
+}
+.navbarCenter {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--BackroundColor);
+  padding: 25px 20px;
+  border-bottom: 1px dashed rgb(83, 82, 82);
+  font-size: 20px;
+}
+.navbarCenter .navbarItems {
+  display: flex;
+  gap: 90px;
+}
+.navbarItems a {
+  color: #fff;
+}
+.navbarItems a:hover {
+  color: #e1b168;
+  transform: scale(1.1);
+}
+.navbarIcons {
+  display: flex;
+  gap: 20px;
+}
+.navbarIcons a {
+  color: #fff;
+  font-size: 20px;
+}
+.navbarIcons a:hover {
+  transform: scale(1.1);
+  color: var(--GoldenColor);
+}
+.navbarBottom {
+  background-color: var(--BackroundColor);
+  display: flex;
+}
+.navbarBottom .navbarBottomLeft {
+  margin: 150px 20px;
+}
+.navbarBottomLeft h1 {
+  font-size: 100px;
+  width: 10ch;
+  color: #fff;
+  font-family: "Cormorant Infant", serif;
+}
+.navbarBottomLeft p {
+  color: white;
+  font-size: 24px;
+  text-align: justify;
+  margin: 40px 0;
+}
+.navbarBottomLeft button {
+  border: 1px solid var(--GoldenColor);
+  color: var(--GoldenColor);
+  background-color: var(--BackroundColor);
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.navbarBottomLeft button:hover {
+  transform: scale(1.1);
+  border: 1px solid #fff;
+  color: black;
+}
