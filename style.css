@@ -9,17 +9,25 @@
 main {
   background: linear-gradient(to top, #e1b168, white);
 }
+.container {
+  width: 1440px;
+}
 :root {
   --BackroundColor: #292e36;
 }
 :root {
   --GoldenColor: #e1b168;
 }
+header {
+  background-color: var(--BackroundColor);
+  display: flex;
+  justify-content: center;
+}
+
 .navbarTop {
   display: flex;
   justify-content: space-between;
-  background-color: var(--BackroundColor);
-  padding: 10px 40px;
+  padding: 10px 0;
   align-items: center;
   border-bottom: 1px solid rgb(83, 82, 82);
 }
@@ -45,8 +53,7 @@ main {
 .navbarCenter {
   display: flex;
   justify-content: space-between;
-  background-color: var(--BackroundColor);
-  padding: 25px 40px;
+  padding: 25px 0;
   border-bottom: 2px dashed rgb(83, 82, 82);
   font-size: 20px;
 }
@@ -75,17 +82,14 @@ main {
   color: var(--GoldenColor);
 }
 .navbarBottom {
-  background-color: var(--BackroundColor);
   display: flex;
 }
 .navbarBottom .navbarBottomLeft {
-  margin: 20px 40px;
+  margin: 20px 0;
 }
 .navbarBottomLeft h1 {
   font-size: 60px;
   width: 10ch;
-  display: flex;
-  text-align: left;
   color: #fff;
   font-family: "Cormorant Infant", serif;
 }
@@ -133,7 +137,7 @@ main {
 }
 .ourstory {
   display: flex;
-  margin: 60px 40px;
+  margin: 60px 0;
   gap: 40px;
 }
 .ourstoryText {
@@ -187,4 +191,22 @@ main {
 .ourstorySign img {
   width: 100px;
   height: 50px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.bizim {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video {
+  display: flex;
+  gap: 50px;
+  margin: 100px 0;
+}
+.menu {
+  display: flex;
 }
