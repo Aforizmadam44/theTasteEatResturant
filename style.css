@@ -111,8 +111,7 @@ header {
 }
 .navbarBottomLeft button:hover {
   transform: scale(1.1);
-  border: 1px solid #fff;
-  color: black;
+  color: #fff;
 }
 .navbarBottomRight img {
   width: 520px;
@@ -209,4 +208,34 @@ section {
 }
 .menu {
   display: flex;
+  gap: 30%;
+}
+.mainmenuleft {
+  width: 30%;
+}
+.mainmenuleft h3 {
+  width: 80px;
+  margin-bottom: 30px;
+  border: 2px solid var(--GoldenColor);
+  border-left: none;
+  border-right: none;
+}
+.mainmenuleft h2 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.mainmenuleft p {
+  margin-bottom: 30px;
+}
+.mainmenuleft button {
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: var(--BackroundColor);
+  color: var(--GoldenColor);
+  cursor: pointer;
+}
+.mainmenuleft button:hover {
+  background-color: var(--GoldenColor);
+  color: white;
 }
