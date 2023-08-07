@@ -267,3 +267,28 @@ p {
   margin: 1% 0;
   color: #fff;
 }
+.costumerReview .cards {
+  width: 30%;
+  height: 25%;
+  padding: 2%;
+  background-color: #4d525c;
+}
+
+.cardsnameandcity {
+  display: flex;
+  flex-direction: column;
+}
+.cardsnameandcity .cardsCity {
+  color: var(--GoldenColor);
+}
+.costumerReview .cardsContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.divider2 {
+  width: 100%;
+  height: 1%;
+  border: 1px solid silver;
+}
