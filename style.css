@@ -252,3 +252,18 @@ header {
   border: 1px solid black;
   margin: 0 5%;
 }
+.costumerReview {
+  background-color: var(--BackroundColor);
+}
+.tastetest {
+  color: #fff;
+  width: 9%;
+  border: 1px solid var(--GoldenColor);
+  border-right: none;
+  border-left: none;
+}
+.costumerReview h2,
+p {
+  margin: 1% 0;
+  color: #fff;
+}
