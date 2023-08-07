@@ -235,9 +235,10 @@ header {
   background-color: var(--GoldenColor);
   color: white;
 }
-.startersproductCoctail {
+.startersproduct {
   display: flex;
   align-items: center;
+  margin: 10% 0;
 }
 .startersproductimg {
   margin-right: 5%;
