@@ -11,6 +11,7 @@ main {
 }
 .container {
   width: 1440px;
+  margin: 0 auto;
 }
 :root {
   --BackroundColor: #292e36;
@@ -18,10 +19,11 @@ main {
 :root {
   --GoldenColor: #e1b168;
 }
+:root {
+  font-size: calc(6px + 1vw);
+}
 header {
   background-color: var(--BackroundColor);
-  display: flex;
-  justify-content: center;
 }
 
 .navbarTop {
@@ -125,8 +127,6 @@ header {
 .locate,
 .openhours,
 .reservation {
-  display: flex;
-  align-items: center;
   gap: 20px;
 }
 .locate h2,
@@ -155,7 +155,7 @@ header {
 }
 .ourstoryText h2 {
   font-size: 34px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .texth2 {
   animation: text-focus-in 5s infinite;
@@ -191,10 +191,6 @@ header {
   width: 100px;
   height: 50px;
 }
-section {
-  display: flex;
-  justify-content: center;
-}
 
 .bizim {
   display: flex;
@@ -214,7 +210,7 @@ section {
   width: 30%;
 }
 .mainmenuleft h3 {
-  width: 80px;
+  width: 25%;
   margin-bottom: 30px;
   border: 2px solid var(--GoldenColor);
   border-left: none;
@@ -238,4 +234,20 @@ section {
 .mainmenuleft button:hover {
   background-color: var(--GoldenColor);
   color: white;
+}
+.startersproductCoctail {
+  display: flex;
+  align-items: center;
+}
+.startersproductimg {
+  margin-right: 5%;
+}
+.startsproductName h3 {
+  margin-bottom: 4%;
+}
+.divider {
+  width: 35%;
+  height: 1%;
+  border: 1px solid black;
+  margin: 0 5%;
 }
