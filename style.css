@@ -183,9 +183,7 @@ header {
 }
 .ourstorySign {
   display: flex;
-  gap: 50px;
-  position: absolute;
-  bottom: 5px;
+  gap: 5%;
 }
 .ourstorySign img {
   width: 100px;
@@ -252,18 +250,28 @@ header {
   border: 1px solid black;
   margin: 0 5%;
 }
-.costumerReview {
-  background-color: var(--BackroundColor);
-}
+
 .tastetest {
   width: 9%;
   border: 1px solid var(--GoldenColor);
   border-right: none;
   border-left: none;
+  color: #fff;
 }
-.costumerReview h2,
+.costumerReview {
+  padding: 10% 0;
+  background-color: var(--BackroundColor);
+}
+.reviewText {
+  color: #fff;
+}
+.costumerReview h2 {
+  color: var(--GoldenColor);
+}
+.costumerReviewText h3,
+h2,
 p {
-  margin: 1% 0;
+  margin-bottom: 2%;
 }
 .costumerReview .cards {
   display: flex;
@@ -274,11 +282,20 @@ p {
   height: 25%;
   padding: 2%;
   background-color: #4d525c;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
 }
-
+.costumerReview .card:hover {
+  transform: scale(1.1);
+}
 .cardsnameandcity {
   display: flex;
   flex-direction: column;
+  margin-left: 6%;
+}
+.cardsnameandcity .cardsName {
+  color: black;
 }
 .cardsnameandcity .cardsCity {
   color: var(--GoldenColor);
@@ -292,6 +309,6 @@ p {
 .divider2 {
   width: 100%;
   height: 1%;
-  border: 1px solid silver;
+  border: 1px solid rgb(100, 100, 100);
   margin-bottom: 8%;
 }
