@@ -326,3 +326,20 @@ p {
   width: 100%;
   object-fit: cover;
 }
+.offersText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+}
+.offersTexth3,
+.offersTexth2 {
+  margin: 1.5%;
+}
+.offersTexth3 {
+  width: 8%;
+  text-align: center;
+  border: 1px solid var(--BackroundColor);
+  border-left: none;
+  border-right: none;
+}
