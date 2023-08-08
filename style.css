@@ -148,10 +148,10 @@ header {
   position: relative;
 }
 #myVideo {
-  width: 700px;
-  max-width: 800px;
-  height: auto;
-  box-shadow: 10px 0 40px var(--BackroundColor);
+  object-fit: cover;
+  width: 800px;
+  height: 500px;
+  box-shadow: 10px 0 10px var(--BackroundColor);
 }
 .ourstoryText h2 {
   font-size: 34px;
@@ -183,11 +183,12 @@ header {
 }
 .ourstorySign {
   display: flex;
+  margin-top: 5%;
   gap: 5%;
 }
 .ourstorySign img {
-  width: 100px;
-  height: 50px;
+  max-width: 100px;
+  max-height: 50px;
 }
 
 .bizim {
@@ -222,9 +223,10 @@ header {
   margin-bottom: 30px;
 }
 .mainmenuleft button {
-  padding: 10px;
+  padding: 15px;
   margin-top: 30px;
   font-size: 18px;
+  border-radius: 5px;
   background-color: var(--BackroundColor);
   color: var(--GoldenColor);
   cursor: pointer;
@@ -243,6 +245,14 @@ header {
 }
 .productName h3 {
   margin-bottom: 4%;
+}
+.menurightStarters h2,
+.menurightMaindish h2,
+.menurightDesserts h2 {
+  font-weight: bold;
+  color: var(--GoldenColor);
+  border-bottom: 2px dashed var(--BackroundColor);
+  width: 10ch;
 }
 .divider {
   width: 35%;
