@@ -343,4 +343,32 @@ p {
   border-left: none;
   border-right: none;
 }
-ş
+.offersContentcard {
+  display: flex;
+  width: 50%;
+  height: 30%;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5eaf2;
+}
+.offersContentVector {
+  position: relative;
+}
+.offersContentVector,
+.discount,
+.offersContentcardname {
+  margin-bottom: 6%;
+}
+.vectorprice {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.discount {
+  width: 12%;
+  text-align: center;
+  border: 1px solid var(--BackroundColor);
+  border-left: none;
+  border-right: none;
+}
