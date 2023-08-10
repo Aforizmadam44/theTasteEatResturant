@@ -431,6 +431,11 @@ p {
 .opportunities {
   background-color: var(--BackroundColor);
 }
+.opportunitiesWidth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .opportunitiesLeft {
   padding: 8% 0;
   width: 50%;
@@ -444,4 +449,17 @@ p {
 }
 .opportunitiesRight {
   width: 50%;
+}
+.opportunitiesRightCard {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 8% 18%;
+  border: 10px solid rgb(95, 95, 95);
+}
+
+.opportunitiesRightCard h3 {
+  color: #fff;
 }
