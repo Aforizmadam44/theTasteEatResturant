@@ -338,19 +338,27 @@ p {
 }
 .offersTexth3 {
   width: 8%;
+  color: #fff;
   text-align: center;
   border: 1px solid var(--BackroundColor);
   border-left: none;
   border-right: none;
 }
+.offersTextp {
+  color: #fff;
+}
+.offersContent {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+}
 .offersContentcard {
   display: flex;
-  width: 50%;
-  height: 30%;
-  padding: 20px 30px;
   justify-content: center;
   align-items: center;
+  padding: 5%;
   background-color: #c5eaf2;
+  box-shadow: 0 0 10px var(--BackroundColor);
 }
 .offersContentVector {
   position: relative;
@@ -358,7 +366,7 @@ p {
 .offersContentVector,
 .discount,
 .offersContentcardname {
-  margin-bottom: 6%;
+  margin-bottom: 10%;
 }
 .vectorprice {
   position: absolute;
@@ -366,7 +374,7 @@ p {
   left: 5%;
 }
 .discount {
-  width: 12%;
+  width: 50%;
   text-align: center;
   border: 1px solid var(--BackroundColor);
   border-left: none;
