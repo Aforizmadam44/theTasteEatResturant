@@ -388,11 +388,14 @@ p {
   align-items: center;
   margin: 5%;
 }
+.popularOfferCards {
+  display: flex;
+}
 .popularOfferCard {
   width: 22%;
   height: 30%;
 }
-.popularOfferCardsImgNamePrice {
+.popularOfferCardImgNamePrice {
   display: flex;
   justify-content: space-between;
 }
