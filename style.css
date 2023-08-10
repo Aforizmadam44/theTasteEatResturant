@@ -10,7 +10,8 @@ main {
   background: linear-gradient(to top, #e1b168, white);
 }
 .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 :root {
@@ -426,4 +427,21 @@ p {
 .popularOfferCardsBtn button:hover {
   background-color: var(--GoldenColor);
   color: white;
+}
+.opportunities {
+  background-color: var(--BackroundColor);
+}
+.opportunitiesLeft {
+  padding: 8% 0;
+  width: 50%;
+}
+.opportunitiesLeft h3 {
+  width: 20ch;
+  margin-bottom: 2%;
+}
+.opportunitiesLeft h2 {
+  color: var(--GoldenColor);
+}
+.opportunitiesRight {
+  width: 50%;
 }
