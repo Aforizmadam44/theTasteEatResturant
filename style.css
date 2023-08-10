@@ -388,3 +388,20 @@ p {
   align-items: center;
   margin: 5%;
 }
+.popularOfferCard {
+  width: 22%;
+  height: 30%;
+}
+.popularOfferCardsImgNamePrice {
+  display: flex;
+  justify-content: space-between;
+}
+.divider3 {
+  width: 100%;
+  height: 1%;
+  border: 1px solid rgb(108, 107, 107);
+  margin: 5% 0;
+}
+.descriptionMeal {
+  width: 32ch;
+}
