@@ -448,18 +448,18 @@ p {
   color: var(--GoldenColor);
 }
 .opportunitiesRight {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
 }
 .opportunitiesRightCard {
-  width: 15%;
+  width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 10% 16%;
-  border: 10px solid rgb(95, 95, 95);
+  padding: 8% 14%;
+  border: 8px solid rgb(95, 95, 95);
 }
 
 .opportunitiesRightCard h3 {
