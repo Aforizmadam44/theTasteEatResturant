@@ -465,3 +465,23 @@ p {
 .opportunitiesRightCard h3 {
   color: #fff;
 }
+.blogCard {
+  width: 44.5%;
+  border: 1px solid black;
+}
+.blogCard img {
+  cursor: pointer;
+}
+.blogContent {
+  padding: 5% 10%;
+}
+.blogContentName {
+  display: flex;
+  gap: 23%;
+  width: 65%;
+  border-bottom: 1px dashed var(--BackroundColor);
+  margin-bottom: 5%;
+}
+.blogContent h2 {
+  color: #fff;
+}
