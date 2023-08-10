@@ -390,6 +390,7 @@ p {
 }
 .popularOfferCards {
   display: flex;
+  gap: 4%;
 }
 .popularOfferCard {
   width: 22%;
@@ -407,4 +408,22 @@ p {
 }
 .descriptionMeal {
   width: 32ch;
+}
+.popularOfferCardsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popularOfferCardsBtn button {
+  padding: 15px;
+  margin: 5% 0;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: var(--BackroundColor);
+  color: var(--GoldenColor);
+  cursor: pointer;
+}
+.popularOfferCardsBtn button:hover {
+  background-color: var(--GoldenColor);
+  color: white;
 }
