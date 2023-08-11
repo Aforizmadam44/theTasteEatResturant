@@ -653,3 +653,14 @@ p {
   border: 1px solid #4d525c;
   margin: o auto;
 }
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.footerEndLeftP {
+  color: #fff;
+}
+.footerEndLeftSpan {
+  color: var(--GoldenColor);
+}
