@@ -567,6 +567,12 @@ p {
   background: var(--BackroundColor);
   padding: 5% 0;
 }
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
 .footerHashtag {
   color: #fff;
 }
@@ -583,7 +589,7 @@ p {
 .footerCenter {
   display: flex;
   justify-content: space-between;
-  margin: 1.5rem 0;
+  margin: 0 auto;
 }
 .footerCenterLeft {
   display: flex;
@@ -601,24 +607,30 @@ p {
 .footerCenterLeft a {
   color: var(--GoldenColor);
 }
-.navbarCenter2 {
+.footerCenter2 {
   position: relative;
+  margin-left: 2.5rem;
 }
-.navbarCenter2 input {
+.footerCenter2 input {
   padding: 0.5rem 2rem;
   font-size: 1rem;
 }
-.navbarCenter2 button {
-  padding: 0.18rem 2rem;
+.footerCenter2 button {
+  padding: 0.18rem 1.5rem;
   outline: none;
   font-size: 0.8rem;
   background-color: #fff;
   position: absolute;
   cursor: pointer;
 }
-.navbarCenter2 button:hover {
+.footerCenter2 button:hover {
   background-color: var(--GoldenColor);
   color: #fff;
+}
+.footerCenterRight {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .workingHours {
   color: #fff;
@@ -634,4 +646,10 @@ p {
 }
 .workingHour span {
   color: var(--GoldenColor);
+}
+.footerDivider {
+  width: 100%;
+  height: 1%;
+  border: 1px solid #4d525c;
+  margin: o auto;
 }
