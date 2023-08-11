@@ -476,8 +476,23 @@ p {
   border: 1px solid black;
   margin-bottom: 5%;
 }
-.blogCard img {
+.blogCardImg {
+  position: relative;
+}
+.blogCardBtn {
+  position: absolute;
+  bottom: 8rem;
+  left: 12rem;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  background-color: var(--GoldenColor);
+  color: var(--BackroundColor);
   cursor: pointer;
+}
+.blogCardBtn:hover {
+  border: 1px solid var(--GoldenColor);
+  background-color: var(--BackroundColor);
+  color: var(--GoldenColor);
 }
 .blogContent {
   padding: 5% 10%;
@@ -565,3 +580,22 @@ p {
   margin-top: 2rem;
   color: #fff;
 }
+.navbarCenter {
+  display: flex;
+}
+.workingHours {
+  color: var(--GoldenColor);
+  margin-bottom: 1rem;
+  border: 1px solid var(--GoldenColor);
+  border-left: none;
+  border-right: none;
+  width: 50%;
+}
+.workingHour {
+  display: flex;
+  gap: 1rem;
+}
+.workingHour span {
+  color: var(--GoldenColor);
+}
+
