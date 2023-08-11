@@ -601,6 +601,25 @@ p {
 .footerCenterLeft a {
   color: var(--GoldenColor);
 }
+.navbarCenter2 {
+  position: relative;
+}
+.navbarCenter2 input {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+.navbarCenter2 button {
+  padding: 0.18rem 2rem;
+  outline: none;
+  font-size: 0.8rem;
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+}
+.navbarCenter2 button:hover {
+  background-color: var(--GoldenColor);
+  color: #fff;
+}
 .workingHours {
   color: #fff;
   margin-bottom: 1rem;
