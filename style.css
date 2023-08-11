@@ -100,6 +100,7 @@ header {
   color: white;
   font-size: 20px;
   text-align: justify;
+  width: 80%;
   margin: 40px 0;
 }
 .navbarBottomLeft button {
@@ -486,8 +487,81 @@ p {
   gap: 23%;
   width: 65%;
   border-bottom: 1px dashed var(--BackroundColor);
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 .blogContent h2 {
+  color: #fff;
+}
+.reservation2 {
+  background-image: url("img/IMAGE\ \(23\).png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding: 5% 0;
+}
+.reservationCard {
+  width: 50%;
+  height: 100%;
+  margin: 0 25%;
+  background-color: rgba(76, 76, 76, 0.7);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservationCardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reservationTexth3 {
+  margin-bottom: 4%;
+  color: #fff;
+}
+.reservationTexth2 {
+  color: var(--GoldenColor);
+}
+.input {
+  background-color: transparent;
+  border: 1px solid var(--GoldenColor);
+  padding: 15px 20px;
+  margin: 10px;
+}
+.input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+.rezervationBtn {
+  color: var(--GoldenColor);
+  background-color: var(--BackroundColor);
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 5%;
+  transition: 0.8s;
+}
+.rezervationBtn:hover {
+  transform: translateY(10px);
+  border-color: var(--GoldenColor);
+  background-color: transparent;
+  color: #fff;
+}
+.footer {
+  background: var(--BackroundColor);
+  padding: 5% 0;
+}
+.footerHashtag {
+  color: #fff;
+}
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerLogo p {
+  margin-top: 2rem;
   color: #fff;
 }
